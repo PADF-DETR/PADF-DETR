@@ -1,0 +1,37 @@
+{
+  "splits": {
+    "val": {
+      "images": 500,
+      "labels": 500,
+      "boxes": 584,
+      "class_counts": {
+        "4": 183,
+        "3": 144,
+        "0": 164,
+        "2": 84,
+        "1": 9
+      },
+      "missing_labels": 0,
+      "orphan_labels": 0
+    },
+    "test": {
+      "images": 500,
+      "labels": 500,
+      "boxes": 604,
+      "class_counts": {
+        "4": 185,
+        "3": 138,
+        "0": 198,
+        "2": 73,
+        "1": 10
+      },
+      "missing_labels": 0,
+      "orphan_labels": 0
+    }
+  },
+  "invalid_label_rows": [],
+  "identical_image_hashes_across_val_test": 15,
+  "python_syntax_errors": [],
+  "missing_critical_file": "ultralytics/nn/tasks.py",
+  "weights_present": false
+}

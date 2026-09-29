@@ -1,0 +1,22 @@
+{
+  "PADF-DETR-source.zip": {
+    "bytes": 662061,
+    "sha256": "a01c14d4f293616605e3ae806f5166499feed8c0b05796fcc0a263a6e9ad71c8"
+  },
+  "VADD-test-part1.zip": {
+    "bytes": 10667942,
+    "sha256": "2d6c49aacf24571636961c2d74b40d842555b5129c6a29d32710810d5fbf255e"
+  },
+  "VADD-test-part2.zip": {
+    "bytes": 17676788,
+    "sha256": "e428b2d7397ca4cc84d0fb54a194114b4a162eb2cc472c3c1ddbb0dca00ba221"
+  },
+  "VADD-val-part1.zip": {
+    "bytes": 11054640,
+    "sha256": "b72a8016190ca7b7076c337ffee7216c040cf862d4fe28edeff7827252d5c6f0"
+  },
+  "VADD-val-part2.zip": {
+    "bytes": 17342585,
+    "sha256": "62843c85153405ebe51c6dc6d5b08ff96393060d87b11df690d63de0a07ff65e"
+  }
+}
