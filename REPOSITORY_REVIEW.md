@@ -18,3 +18,5 @@ Checked on 2026-09-29 using the public API and authenticated General settings pa
 | Repository name | Same as account | README also appears on the account profile. |
 
 No permissions or security settings were changed. This is a review of relevant observed settings, not all account settings. Public visibility alone does not demonstrate PLOS compliance. Remaining material gaps are documented in README.md.
+
+Zenodo follow-up: authenticated settings show PADF-DETR/PADF-DETR enabled (ON) for automatic preservation. No archive DOI or release has yet been verified.

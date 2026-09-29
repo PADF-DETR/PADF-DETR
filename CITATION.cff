@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this source-code and evaluation-data repository. An archival DOI has not yet been registered."
+title: "PADF-DETR: source code and VADD evaluation data"
+type: software
+authors:
+  - family-names: Zeng
+    given-names: Aiming
+    affiliation: "School of General Education, Dongguan City University, China"
+  - family-names: Xu
+    given-names: Yuan
+    affiliation: "School of Artificial Intelligence, Dongguan City University, China"
+  - family-names: Zhong
+    given-names: Weijie
+    affiliation: "School of General Education, Dongguan City University, China"
+  - family-names: Yan
+    given-names: Keding
+    affiliation: "School of Electronics and Information Engineering, Xi'an Technological University, China"
+repository-code: "https://github.com/PADF-DETR/PADF-DETR"
+url: "https://github.com/PADF-DETR/PADF-DETR"
+abstract: "Source snapshot for PADF-DETR and the 500-image validation and 500-image test subsets of VADD. The training split, trained weights, and required model task module are absent; this snapshot is not a complete reproducibility release."
+keywords:
+  - volleyball action detection
+  - RT-DETR
+  - object detection
+  - VADD

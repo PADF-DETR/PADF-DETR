@@ -4,7 +4,7 @@
 
 This is a publication-preparation snapshot of the author-supplied `PADF-DETR.zip`. It is **not yet a complete reproducibility release**. No DOI has been registered for this snapshot. See `AUDIT.json` and the limitations below before using it to support a reproducibility claim.
 
-The supplied package contains a modified Ultralytics code tree (its `__version__` is `8.0.201`), RT-DETR model configurations, and VADD validation/test images with object-detection annotations. The supplied manuscript describes single-frame volleyball action detection using VADD: 5,000 tournament images, with 4,000 training, 500 validation, and 500 test images. Only validation and test images are included here. Author metadata and redistribution permissions remain unconfirmed. No independently reproduced performance claim is made here.
+The supplied package contains a modified Ultralytics code tree (its `__version__` is `8.0.201`), RT-DETR model configurations, and VADD validation/test images with object-detection annotations. The supplied manuscript describes single-frame volleyball action detection using VADD: 5,000 tournament images, with 4,000 training, 500 validation, and 500 test images. Only validation and test images are included here. Author metadata are provided below; dataset redistribution permissions remain unconfirmed. No independently reproduced performance claim is made here.
 
 ## Download and unpack
 
@@ -39,7 +39,7 @@ Each image has a matching text annotation file with the same stem. Nonempty rows
 class_id x_center y_center width height
 ```
 
-Coordinates are normalized to image dimensions. Observed class IDs are `0` through `4`; their semantic names were not supplied. The model YAML retains an `nc: 80` setting, which does not match the five observed label IDs; the original dataset configuration and actual training setup must be recovered before use.
+Coordinates are normalized to image dimensions. Observed class IDs are `0` through `4`; the numeric mapping to the five named actions was not supplied. The model YAML retains an `nc: 80` setting, which does not match the five observed label IDs; the original dataset configuration and actual training setup must be recovered before use.
 
 | Class ID | Validation boxes | Test boxes |
 | --- | ---: | ---: |
@@ -84,3 +84,20 @@ The accompanying author-provided dataset README describes the intended use as re
 The author-provided README states that these validation/test splits match the paper experiments. This statement has not been verified against original experiment logs. It also states that no additional names, contact details, student IDs, or player IDs are included; that does not establish that visible people in the images are anonymized.
 
 The dataset subset does not enable full retraining from scratch. Repository hosting can accommodate files beyond supplementary-material limits; omitting training data therefore needs a study-specific access explanation and a persistent source where applicable.
+
+## Authors and associated manuscript
+
+Aiming Zeng, Yuan Xu, Weijie Zhong, and Keding Yan, in this order.
+
+- Aiming Zeng and Weijie Zhong: School of General Education, Dongguan City University, Dongguan, China.
+- Yuan Xu: School of Artificial Intelligence, Dongguan City University, Dongguan, China.
+- Keding Yan: School of Electronics and Information Engineering, Xi'an Technological University, Xi'an, China; corresponding author.
+
+Associated manuscript title: **PADF-DETR: Pose-Aware Directional Feature Learning with Adaptive Multi-Scale Fusion for Volleyball Action Detection**.
+
+These bibliographic details were taken from the author-supplied manuscript source. No publication status, journal acceptance, article DOI, or ORCID is asserted. The manuscript and its figures are not included in this repository. See `CITATION.cff` for repository citation metadata; a version-specific archive DOI will be added only after registration is verified.
+
+## Archival publication status
+
+The dataset creator has stated that public redistribution authorization for the original match footage and derived images has not yet been obtained and no dataset license has been selected. An archival release containing those images is pending rights clarification. This repository does not grant an open license for the images.
+
