@@ -65,7 +65,7 @@ Many supplied Ultralytics source headers state AGPL-3.0. Preserve upstream attri
 
 ## Citation and persistent access
 
-The v1.0.0 preparation snapshot is archived on Zenodo at [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051) and corresponds to the [GitHub v1.0.0 release](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.0). Use this version-specific DOI when citing the archived files; cite a later version by its own DOI.
+The v1.0.0 preparation snapshot is archived on Zenodo at [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051) and corresponds to the [GitHub v1.0.0 release](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.0). The documentation update in [GitHub v1.0.1](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.1) is archived at [10.5281/zenodo.23050439](https://doi.org/10.5281/zenodo.23050439). The concept DOI for all versions is [10.5281/zenodo.23050050](https://doi.org/10.5281/zenodo.23050050). Use the version-specific DOI when citing a particular archived version.
 
 ## PLOS ONE data-sharing scope
 
@@ -99,6 +99,6 @@ These bibliographic details were taken from the author-supplied manuscript sourc
 
 ## Archival publication status
 
-The dataset creator has stated that public redistribution authorization for the original match footage and derived images has not been obtained and no dataset license has been selected. The v1.0.0 Zenodo record is already public and includes the source code and VADD evaluation data described on its record page. The record and this repository do not grant an open license for the images. Rights and permitted access remain unresolved.
+The dataset creator has stated that public redistribution authorization for the original match footage and derived images has not been obtained and no dataset license has been selected. The v1.0.0 Zenodo record (DOI `10.5281/zenodo.23050051`) and the documentation-only v1.0.1 record (DOI `10.5281/zenodo.23050439`) are public. The concept DOI covering all versions is `10.5281/zenodo.23050050`. The records and this repository do not grant an open license for the images. Rights and permitted access remain unresolved.
 
 
