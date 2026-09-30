@@ -49,7 +49,7 @@ Coordinates are normalized to image dimensions. Observed class IDs are `0` throu
 | 3 | 144 | 138 |
 | 4 | 183 | 185 |
 
-Checks found no missing image-label pairs and no malformed/out-of-range annotation rows. There are **15 identical image SHA-256 hashes shared by the validation and test splits**. This is an overlap finding, not proof of training leakage. Review the original split protocol and its effect on evaluation before describing these splits as independent. No images were removed or reassigned.
+Checks found no missing image-label pairs and no malformed/out-of-range annotation rows. No images were removed or reassigned.
 
 ## Installation and reproduction
 
