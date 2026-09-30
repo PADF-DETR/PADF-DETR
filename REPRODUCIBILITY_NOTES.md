@@ -2,7 +2,7 @@
 
 ## Release status
 
-This publication-preparation snapshot was archived as GitHub release [v1.0.0](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.0) with Zenodo DOI [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051). It remains an incomplete reproducibility release: see the limitations below before using it to support a reproducibility claim.
+This publication-preparation snapshot was archived as GitHub release [v1.0.0](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.0) with Zenodo DOI [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051). It remains an incomplete reproducibility release: see the limitations below for scope and setup details.
 
 The supplied package contains a modified Ultralytics code tree (its `__version__` is `8.0.201`), RT-DETR model configurations, and VADD validation/test images with object-detection annotations. The supplied manuscript describes single-frame volleyball action detection using VADD: 5,000 tournament images, with 4,000 training, 500 validation, and 500 test images. Only validation and test images are included here. Author metadata are provided below; dataset redistribution permissions remain unconfirmed. No independently reproduced performance claim is made here.
 
@@ -10,7 +10,7 @@ The supplied package contains a modified Ultralytics code tree (its `__version__
 
 Repository: https://github.com/PADF-DETR/PADF-DETR
 
-The source and data are distributed as five independent ZIP archives. Download `PADF-DETR-source.zip`, `VADD-val-part1.zip`, `VADD-val-part2.zip`, `VADD-test-part1.zip`, and `VADD-test-part2.zip`. Extract all five into the same directory; they contain non-overlapping files with the original directory paths. Each data archive contains 250 images and their matching annotations. The numbered files are ordinary ZIP archives, not a multipart ZIP stream. The SHA-256 checksums for the five ZIP downloads are provided in `PACKAGE_CHECKSUMS.json`.
+The source and data are distributed as five independent ZIP archives. Download `PADF-DETR-source.zip`, `VADD-val-part1.zip`, `VADD-val-part2.zip`, `VADD-test-part1.zip`, and `VADD-test-part2.zip`. Extract all five into the same directory; they contain non-overlapping files with the original directory paths. Each data archive contains 250 images and their matching annotations. The numbered files are ordinary ZIP archives, not a multipart ZIP stream. SHA-256 checksums for the five ZIP downloads are listed in `PACKAGE_CHECKSUMS.json`.
 
 ## Repository layout
 
@@ -20,11 +20,7 @@ The source and data are distributed as five independent ZIP archives. Download `
 - `ultralytics/nn/modules/block.py`: contains `PADR_Block` and `BASSA` definitions.
 - `ultralytics/nn/modules/ASF.py`: contains `Zoom_cat` and `ScalSeq` definitions.
 - `VADD(minmaldataset)/val/images/` and `val/labels/`: validation images and annotations.
-- `VADD(minmaldataset)/test/images/` and `test/labels/`: test images and annotations.
-
-
-
-Original source and data contents are preserved. Python bytecode, notebook checkpoint copies, and runtime caches were excluded from this prepared copy. The original ZIP remains unchanged.
+- `VADD(minmaldataset)/test/images/` and `test/labels/`: test images and annotations.\r\nOriginal source and data contents are preserved. Python bytecode, notebook checkpoint copies, and runtime caches were excluded from this prepared copy. The original ZIP remains unchanged.
 
 ## Dataset contents and format
 
