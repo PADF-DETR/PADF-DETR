@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this source-code and evaluation-data repository. An archival DOI has not yet been registered."
+message: "Please cite this source-code and evaluation-data repository using the Zenodo DOI for the archived version."
 title: "PADF-DETR: source code and VADD evaluation data"
 type: software
 authors:
@@ -23,3 +23,8 @@ keywords:
   - RT-DETR
   - object detection
   - VADD
+
+identifiers:
+  - description: "Zenodo DOI for the archived v1.0.0 source code and VADD evaluation data"
+    type: doi
+    value: "10.5281/zenodo.23050051"
