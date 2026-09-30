@@ -14,7 +14,7 @@ PADF-DETR studies single-frame volleyball action detection using pose-aware dire
 - `VADD-val-part1.zip`, `VADD-val-part2.zip`: 500 validation images and annotations
 - `VADD-test-part1.zip`, `VADD-test-part2.zip`: 500 test images and annotations
 
-This is a partial release. The 4,000 training images and trained model weights are not included. The source snapshot is incomplete and lacks `ultralytics/nn/tasks.py`, so an end-to-end workflow has not been verified. See [REPRODUCIBILITY_NOTES.md](REPRODUCIBILITY_NOTES.md) for dataset and reproducibility notes.
+This is a partial release. The 4,000 training images and trained model weights are not included. The source snapshot is incomplete and lacks `ultralytics/nn/tasks.py`, so an end-to-end workflow has not been verified. See [REPRODUCIBILITY_NOTES.md](REPRODUCIBILITY_NOTES.md) for dataset contents, setup details, and known limitations.
 
 ## Data and licensing
 
