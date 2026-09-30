@@ -20,7 +20,9 @@ The source and data are distributed as five independent ZIP archives. Download `
 - `ultralytics/nn/modules/block.py`: contains `PADR_Block` and `BASSA` definitions.
 - `ultralytics/nn/modules/ASF.py`: contains `Zoom_cat` and `ScalSeq` definitions.
 - `VADD(minmaldataset)/val/images/` and `val/labels/`: validation images and annotations.
-- `VADD(minmaldataset)/test/images/` and `test/labels/`: test images and annotations.\r\nOriginal source and data contents are preserved. Python bytecode, notebook checkpoint copies, and runtime caches were excluded from this prepared copy. The original ZIP remains unchanged.
+- `VADD(minmaldataset)/test/images/` and `test/labels/`: test images and annotations.
+
+Original source and data contents are preserved. Python bytecode, notebook checkpoint copies, and runtime caches were excluded from this prepared copy. The original ZIP remains unchanged.
 
 ## Dataset contents and format
 
