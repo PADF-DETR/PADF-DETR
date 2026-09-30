@@ -1,5 +1,8 @@
 # PADF-DETR
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23050051.svg)](https://doi.org/10.5281/zenodo.23050051)
+
 Selected source code and VADD validation/test data accompanying **PADF-DETR: Pose-Aware Directional Feature Learning and Adaptive Fusion for Fine-Grained Volleyball Action Detection in Crowded Scenes**.
 
 **Authors:** Aiming Zeng, Yuan Xu, Weijie Zhong, and Keding Yan.
@@ -45,6 +48,6 @@ VADD was assembled from Japan High School Boys' Volleyball National Tournament f
 
 ## Citation
 
-Author and repository citation metadata are provided in [CITATION.cff](CITATION.cff). The archival DOI is pending and will be added after registration is verified.
+Author and repository citation metadata are provided in [CITATION.cff](CITATION.cff). The v1.0.0 source code and VADD evaluation data are archived on Zenodo: [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051).
 
 For questions about these materials, please use [GitHub Issues](https://github.com/PADF-DETR/PADF-DETR/issues).
