@@ -25,7 +25,7 @@ No permissions or security settings were changed during the initial check. This 
 - The repository owner provided the associated Zenodo DOI: [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051).
 - Zenodo automatic preservation is enabled for this repository, as confirmed in the authenticated settings page.
 - The v1.0.1 version DOI is `10.5281/zenodo.23050439`; the all-versions concept DOI is `10.5281/zenodo.23050050`. The v1.0.0 version DOI remains `10.5281/zenodo.23050051`.
-- README and `CITATION.cff` identify the current version, concept DOI, and previous version. The Zenodo record does not resolve the outstanding source-code completeness, data-rights, or data-split issues.
+- README and `CITATION.cff` identify the current version, concept DOI, and previous version. The Zenodo record does not resolve the outstanding source-code completeness or data-rights issues.
 
 ## Manifest scope
 
