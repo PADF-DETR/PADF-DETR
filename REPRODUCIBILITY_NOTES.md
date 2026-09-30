@@ -2,7 +2,7 @@
 
 ## Release status
 
-This is a publication-preparation snapshot of the author-supplied `PADF-DETR.zip`. It is **not yet a complete reproducibility release**. No DOI has been registered for this snapshot. See `AUDIT.json` and the limitations below before using it to support a reproducibility claim.
+This publication-preparation snapshot was archived as GitHub release [v1.0.0](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.0) with Zenodo DOI [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051). It remains an incomplete reproducibility release: see `AUDIT.json` and the limitations below before using it to support a reproducibility claim.
 
 The supplied package contains a modified Ultralytics code tree (its `__version__` is `8.0.201`), RT-DETR model configurations, and VADD validation/test images with object-detection annotations. The supplied manuscript describes single-frame volleyball action detection using VADD: 5,000 tournament images, with 4,000 training, 500 validation, and 500 test images. Only validation and test images are included here. Author metadata are provided below; dataset redistribution permissions remain unconfirmed. No independently reproduced performance claim is made here.
 
@@ -10,7 +10,7 @@ The supplied package contains a modified Ultralytics code tree (its `__version__
 
 Repository: https://github.com/PADF-DETR/PADF-DETR
 
-The source and data are distributed as five independent ZIP archives. Download `PADF-DETR-source.zip`, `VADD-val-part1.zip`, `VADD-val-part2.zip`, `VADD-test-part1.zip`, and `VADD-test-part2.zip`. Extract all five into the same directory; they contain non-overlapping files with the original directory paths. Each data archive contains 250 images and their matching annotations. The numbered files are ordinary ZIP archives, not a multipart ZIP stream. `PACKAGE_CHECKSUMS.json` lists SHA-256 checksums of these downloads. `MANIFEST.csv` describes the expanded preparation snapshot; some preparation documents named in it are not distributed at this repository root.
+The source and data are distributed as five independent ZIP archives. Download `PADF-DETR-source.zip`, `VADD-val-part1.zip`, `VADD-val-part2.zip`, `VADD-test-part1.zip`, and `VADD-test-part2.zip`. Extract all five into the same directory; they contain non-overlapping files with the original directory paths. Each data archive contains 250 images and their matching annotations. The numbered files are ordinary ZIP archives, not a multipart ZIP stream. `PACKAGE_CHECKSUMS.json` lists SHA-256 checksums of these downloads. `MANIFEST.csv` describes the expanded preparation snapshot, not the current repository-root file list. It includes files from that prepared snapshot that are not present at the repository root, and its README entry does not describe the current README. Use `PACKAGE_CHECKSUMS.json` to verify the five ZIP files currently distributed here.
 
 ## Repository layout
 
@@ -21,7 +21,7 @@ The source and data are distributed as five independent ZIP archives. Download `
 - `ultralytics/nn/modules/ASF.py`: contains `Zoom_cat` and `ScalSeq` definitions.
 - `VADD(minmaldataset)/val/images/` and `val/labels/`: validation images and annotations.
 - `VADD(minmaldataset)/test/images/` and `test/labels/`: test images and annotations.
-- `MANIFEST.csv`: file paths, byte sizes, and SHA-256 checksums (excluding itself).
+- `MANIFEST.csv`: paths, byte sizes, and SHA-256 checksums for the expanded preparation snapshot; it is not a manifest of the current repository root.
 - `AUDIT.json`: structural and annotation checks; these are not model-performance tests.
 
 Original source and data contents are preserved. Python bytecode, notebook checkpoint copies, and runtime caches were excluded from this prepared copy. The original ZIP remains unchanged.
@@ -61,11 +61,11 @@ All 139 supplied Python source files passed syntax parsing. No model import, tra
 
 ## Provenance and licensing
 
-Many supplied Ultralytics source headers state AGPL-3.0. Preserve upstream attribution and applicable third-party terms. The archive contains no top-level license text or dataset license. This README does not grant new rights over third-party code or images. The authors must identify the VADD source/version, collection and annotation methods, redistribution permissions, class names, and applicable data license before an archival release.
+Many supplied Ultralytics source headers state AGPL-3.0. Preserve upstream attribution and applicable third-party terms. The archive contains no top-level license text or dataset license. This README does not grant new rights over third-party code or images. The authors must identify the VADD source/version, collection and annotation methods, redistribution permissions, class names, and applicable data license. The v1.0.0 Zenodo record is already public; its existence does not establish redistribution rights or grant a data license.
 
 ## Citation and persistent access
 
-Use a version-specific archival DOI only after the final files and metadata have actually been deposited and published in an archival repository such as Zenodo. GitHub is the development repository; its URL alone is not a DOI. Add the verified repository URL, release tag, creators, archival DOI, and preferred citation here after publication. Do not cite this preparation snapshot as a completed public deposit.
+The v1.0.0 preparation snapshot is archived on Zenodo at [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051) and corresponds to the [GitHub v1.0.0 release](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.0). Use this version-specific DOI when citing the archived files; cite a later version by its own DOI.
 
 ## PLOS ONE data-sharing scope
 
@@ -95,10 +95,10 @@ Aiming Zeng, Yuan Xu, Weijie Zhong, and Keding Yan, in this order.
 
 Associated manuscript title: **PADF-DETR: Pose-Aware Directional Feature Learning and Adaptive Fusion for Fine-Grained Volleyball Action Detection in Crowded Scenes**.
 
-These bibliographic details were taken from the author-supplied manuscript source. No publication status, journal acceptance, article DOI, or ORCID is asserted. The manuscript and its figures are not included in this repository. See `CITATION.cff` for repository citation metadata; a version-specific archive DOI will be added only after registration is verified.
+These bibliographic details were taken from the author-supplied manuscript source. No publication status, journal acceptance, article DOI, or ORCID is asserted. The manuscript and its figures are not included in this repository. See `CITATION.cff` for repository citation metadata and the v1.0.0 archive DOI. No article DOI or publication status is asserted here.
 
 ## Archival publication status
 
-The dataset creator has stated that public redistribution authorization for the original match footage and derived images has not yet been obtained and no dataset license has been selected. An archival release containing those images is pending rights clarification. This repository does not grant an open license for the images.
+The dataset creator has stated that public redistribution authorization for the original match footage and derived images has not been obtained and no dataset license has been selected. The v1.0.0 Zenodo record is already public and includes the source code and VADD evaluation data described on its record page. The record and this repository do not grant an open license for the images. Rights and permitted access remain unresolved.
 
 
