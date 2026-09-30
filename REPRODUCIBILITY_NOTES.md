@@ -2,7 +2,7 @@
 
 ## Release status
 
-This publication-preparation snapshot was archived as GitHub release [v1.0.0](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.0) with Zenodo DOI [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051). It remains an incomplete reproducibility release: see `AUDIT.json` and the limitations below before using it to support a reproducibility claim.
+This publication-preparation snapshot was archived as GitHub release [v1.0.0](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.0) with Zenodo DOI [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051). It remains an incomplete reproducibility release: see the limitations below before using it to support a reproducibility claim.
 
 The supplied package contains a modified Ultralytics code tree (its `__version__` is `8.0.201`), RT-DETR model configurations, and VADD validation/test images with object-detection annotations. The supplied manuscript describes single-frame volleyball action detection using VADD: 5,000 tournament images, with 4,000 training, 500 validation, and 500 test images. Only validation and test images are included here. Author metadata are provided below; dataset redistribution permissions remain unconfirmed. No independently reproduced performance claim is made here.
 
@@ -10,7 +10,7 @@ The supplied package contains a modified Ultralytics code tree (its `__version__
 
 Repository: https://github.com/PADF-DETR/PADF-DETR
 
-The source and data are distributed as five independent ZIP archives. Download `PADF-DETR-source.zip`, `VADD-val-part1.zip`, `VADD-val-part2.zip`, `VADD-test-part1.zip`, and `VADD-test-part2.zip`. Extract all five into the same directory; they contain non-overlapping files with the original directory paths. Each data archive contains 250 images and their matching annotations. The numbered files are ordinary ZIP archives, not a multipart ZIP stream. `PACKAGE_CHECKSUMS.json` lists SHA-256 checksums of these downloads. `MANIFEST.csv` describes the expanded preparation snapshot, not the current repository-root file list. It includes files from that prepared snapshot that are not present at the repository root, and its README entry does not describe the current README. Use `PACKAGE_CHECKSUMS.json` to verify the five ZIP files currently distributed here.
+The source and data are distributed as five independent ZIP archives. Download `PADF-DETR-source.zip`, `VADD-val-part1.zip`, `VADD-val-part2.zip`, `VADD-test-part1.zip`, and `VADD-test-part2.zip`. Extract all five into the same directory; they contain non-overlapping files with the original directory paths. Each data archive contains 250 images and their matching annotations. The numbered files are ordinary ZIP archives, not a multipart ZIP stream. The SHA-256 checksums for the five ZIP downloads are provided in `PACKAGE_CHECKSUMS.json`.
 
 ## Repository layout
 
@@ -21,8 +21,8 @@ The source and data are distributed as five independent ZIP archives. Download `
 - `ultralytics/nn/modules/ASF.py`: contains `Zoom_cat` and `ScalSeq` definitions.
 - `VADD(minmaldataset)/val/images/` and `val/labels/`: validation images and annotations.
 - `VADD(minmaldataset)/test/images/` and `test/labels/`: test images and annotations.
-- `MANIFEST.csv`: paths, byte sizes, and SHA-256 checksums for the expanded preparation snapshot; it is not a manifest of the current repository root.
-- `AUDIT.json`: structural and annotation checks; these are not model-performance tests.
+
+
 
 Original source and data contents are preserved. Python bytecode, notebook checkpoint copies, and runtime caches were excluded from this prepared copy. The original ZIP remains unchanged.
 
@@ -79,7 +79,7 @@ Reported environment: Ubuntu 20.04, Python 3.8, PyTorch 2.0.0, CUDA 11.8, NVIDIA
 
 ## Data-use statement supplied with the dataset
 
-The accompanying author-provided dataset README describes the intended use as research and academic study and states that copyright and redistribution must follow the original footage source and permissions obtained by the authors. It does not specify a standard data license or document those permissions. No CC BY, CC0, or other new data license is asserted by this repository.
+The accompanying dataset documentation describes the intended use as research and academic study and states that copyright and redistribution are subject to the original footage source and applicable permissions. It does not specify a standard data license or document those permissions. No CC BY, CC0, or other new data license is asserted by this repository.
 
 The author-provided README states that these validation/test splits match the paper experiments. This statement has not been verified against original experiment logs. It also states that no additional names, contact details, student IDs, or player IDs are included; that does not establish that visible people in the images are anonymized.
 
