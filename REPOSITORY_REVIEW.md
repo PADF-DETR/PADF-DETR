@@ -2,7 +2,7 @@
 
 Repository: https://github.com/PADF-DETR/PADF-DETR
 
-Checked on 2026-09-29 using the public API and authenticated General settings page.
+Initial settings check performed on 2026-09-29 using the public API and authenticated General settings page. The table below records that historical check, not a fresh audit of every setting.
 
 | Item | Observed state | Interpretation |
 | --- | --- | --- |
@@ -17,6 +17,15 @@ Checked on 2026-09-29 using the public API and authenticated General settings pa
 | Releases | None at initial inspection | Connecting Zenodo alone does not establish a deposit. |
 | Repository name | Same as account | README also appears on the account profile. |
 
-No permissions or security settings were changed. This is a review of relevant observed settings, not all account settings. Public visibility alone does not demonstrate PLOS compliance. Remaining material gaps are documented in README.md.
+No permissions or security settings were changed during the initial check. This is a review of relevant observed settings, not all account settings. Public visibility alone does not demonstrate PLOS compliance. Current material gaps are documented in `README.md` and `REPRODUCIBILITY_NOTES.md`.
 
-Zenodo follow-up: authenticated settings show PADF-DETR/PADF-DETR enabled (ON) for automatic preservation. No archive DOI or release has yet been verified.
+## Follow-up (2026-09-30)
+
+- GitHub confirms public release [v1.0.0](https://github.com/PADF-DETR/PADF-DETR/releases/tag/v1.0.0) was published on 2026-09-30.
+- The repository owner provided the associated Zenodo DOI: [10.5281/zenodo.23050051](https://doi.org/10.5281/zenodo.23050051).
+- Zenodo automatic preservation is enabled for this repository, as confirmed in the authenticated settings page.
+- The DOI is now present in `README.md` and `CITATION.cff`. The Zenodo record does not resolve the outstanding source-code completeness, data-rights, or data-split issues.
+
+## Manifest scope
+
+`MANIFEST.csv` inventories the expanded preparation snapshot, not the current repository root. Some listed preparation files are not distributed at the root, and the manifest's README entry predates the current root README. `PACKAGE_CHECKSUMS.json` is the checksum list for the five ZIP downloads currently distributed at the root.
