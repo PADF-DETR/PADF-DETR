@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this source-code and evaluation-data repository using the Zenodo DOI for the archived version."
+message: "Please cite the archived version of this source-code and evaluation-data repository using its version-specific Zenodo DOI."
 title: "PADF-DETR: source code and VADD evaluation data"
 type: software
 authors:
@@ -25,6 +25,12 @@ keywords:
   - VADD
 
 identifiers:
-  - description: "Zenodo DOI for the archived v1.0.0 source code and VADD evaluation data"
+  - description: "Concept DOI for all PADF-DETR archive versions"
+    type: doi
+    value: "10.5281/zenodo.23050050"
+  - description: "Version-specific DOI for release v1.0.1"
+    type: doi
+    value: "10.5281/zenodo.23050439"
+  - description: "Version-specific DOI for release v1.0.0"
     type: doi
     value: "10.5281/zenodo.23050051"
