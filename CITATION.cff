@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "Please cite the archived version of this source-code and evaluation-data repository using its version-specific Zenodo DOI."
 title: "PADF-DETR: source code and VADD evaluation data"
 type: software
+version: 1.0.1
+date-released: 2026-09-30
 authors:
   - family-names: Zeng
     given-names: Aiming
