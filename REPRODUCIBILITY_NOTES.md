@@ -95,7 +95,7 @@ Aiming Zeng, Yuan Xu, Weijie Zhong, and Keding Yan, in this order.
 
 Associated manuscript title: **PADF-DETR: Pose-Aware Directional Feature Learning and Adaptive Fusion for Fine-Grained Volleyball Action Detection in Crowded Scenes**.
 
-These bibliographic details were taken from the author-supplied manuscript source. No publication status, journal acceptance, article DOI, or ORCID is asserted. The manuscript and its figures are not included in this repository. See `CITATION.cff` for repository citation metadata and the v1.0.0 archive DOI. No article DOI or publication status is asserted here.
+These bibliographic details were taken from the author-supplied manuscript source. No publication status, journal acceptance, article DOI, or ORCID is asserted. The manuscript and its figures are not included in this repository. See `CITATION.cff` for repository citation metadata, current version information, and version-specific archive DOI references. No article DOI or publication status is asserted here.
 
 ## Archival publication status
 
